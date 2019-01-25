@@ -34,4 +34,4 @@ with open(bfilename, "rb") as f:
 # 텍스트 읽기
 with open(tfilename, "rt") as f:
     for i, line in enumerate(f,1):
-        print(type(line),"Text Read" + str(i) + "|",line,end="")
+        print(type(line),"Text Read" + str(i) + "|",line, end="")
